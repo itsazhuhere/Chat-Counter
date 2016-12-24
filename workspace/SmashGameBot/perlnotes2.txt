@@ -1,0 +1,30 @@
+sort is in ascii order by default (uses cmp)
+@a = sort(3,4,9,11,23)
+print "@a"; 11 23 3 4 9
+
+
+
+sort compare code
+$a left hand
+$b right hand
+
+we return:
+-1 to say $a is first(smaller)
+0 to say Do not care
+1 to say $b is first
+
+@sorted = sort{$a cmp $b}@unsorted
+@sorted = sort{$a<=>$b}@unsorted
+@k = sort{$a<=>$b}keys%H;
+
+
+Five kinds of regular expression atoms
+-single character
+-dot
+-class
+-anchor
+-back reference
+
+
+Example
+Regular Expression

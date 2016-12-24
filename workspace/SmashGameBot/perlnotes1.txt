@@ -1,0 +1,35 @@
+$/: input record separator
+default value "\n"
+$/ = ":";
+$\: output record separator
+default value ""
+$\ = "\n";
+$, output field separator
+default ""
+%, = "\t"
+
+tests the line number
+if(20..30)
+	while(<>)
+		print($.," ",$_,"\n") if (2..3);
+			a<-
+			b<-
+			2b
+			c<-
+			3c
+			d<-
+			e<-
+			^z
+			
+			
+%hashx=(key1,value1,
+		key2,value2,
+		key3,value3)
+		
+%Ages("John",24,
+	  "Mary",32,
+	  "Fred",68);
+print $Ages{"Mary"}; 32
+print $Ages{"Fred"}; 68
+print $Ages{"John"}; 24
+	  
